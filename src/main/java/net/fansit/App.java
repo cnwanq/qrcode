@@ -23,10 +23,10 @@ public class App
         // 目标文件名称
         String fileName = "image.jpg";
 
-        if (args.length == 1) {
+        if (args.length >= 1) {
             qrcodeValue = args[0];
         }
-        if (args.length == 2) {
+        if (args.length >= 2) {
             destPath = args[1];
         }
         if (args.length == 3) {
